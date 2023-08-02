@@ -1,0 +1,49 @@
+#container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+#newFood{
+    margin-top: 20px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+}
+#newFood label{
+    background-color: orangered;
+    padding: 5px 10px 5px 10px;
+}
+#newFood label:hover{
+    cursor: pointer;
+}
+
+#grid1{
+    margin-top:15px;
+    margin-left: 20%;
+}
+#grid2{
+    margin-top:40px;
+    font-style: italic;
+}
+#totalCalories label{
+    font-style: italic;
+    font-weight: 600;
+}
+#totalCalories ol{
+    margin-left: 50px;
+    list-style-type:disc;
+}
+#totalCalories ol li{
+    font-size: 10px;
+}
+
+#formDiv{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 10px;
+    margin-left :40px;
+}
+#displayContainer{
+    margin-top: 20px;
+    margin-left: 20%;
+}

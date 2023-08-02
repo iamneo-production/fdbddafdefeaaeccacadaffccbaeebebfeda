@@ -1,0 +1,28 @@
+#displayContainer {
+    height: auto;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+.card{
+    text-align: center;
+    background-color: whitesmoke;
+    font-style: italic;
+    font-weight:600;
+    width:400px;    
+    padding:10px 10px 10px 10px;
+    font-size: 10px;
+    border: 1px whitesmoke solid;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#inputDiv label{
+    margin-left: 5px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: orangered;
+}
+#inputDiv label:hover{
+    cursor: pointer;
+}

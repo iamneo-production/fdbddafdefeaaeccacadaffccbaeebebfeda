@@ -1,0 +1,16 @@
+<div id="displayContainer" >
+    <div *ngFor="let item of parentData;let i = index">
+    <div class="card" *ngIf="stext === '' || item.name.toLowerCase().includes(stext)">
+        <img src="{{item.url}}" width="100px" height="100px" style="border-radius: 50%;">
+        <div style="margin-left: 40px;">
+            <label>{{item.name}}</label><br><br>
+            <label>Calory - <span #caloryValue style="color:orangered;">{{item.calories}}</span></label><br><br>
+            <div id="inputDiv">
+                <input type="text" [name]="item.name" [value]="item.name" [(ngModel)] = 'Quantity[i]'> 
+                <label (click) = "AddQuantity(i)"> Add </label>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
