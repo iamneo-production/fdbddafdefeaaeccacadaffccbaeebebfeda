@@ -1,0 +1,13 @@
+#searchBox{
+    text-align: center;
+ }
+ label{
+     font-size: small;
+     opacity: 50%;
+     font-style: italic;
+ }
+ input{
+     margin-top: 5px;
+     width: 50%;
+ }
+ 
